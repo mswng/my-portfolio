@@ -1,19 +1,187 @@
-# React + Vite
+# 📌 My Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A **personal portfolio website** built with **React**, **TypeScript**, and **Tailwind CSS**, created to showcase my skills, experience, and projects in **full-stack web development**, **UI/UX design**, and **AI application development**.
 
-Currently, two official plugins are available:
+The portfolio highlights my experience with modern web technologies, backend development, database systems, and AI technologies such as **RAG (Retrieval-Augmented Generation)**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+🌐 **Visit my website:** 
+<!-- [suongthanh.vercel.app](https://your-domain.vercel.app/) -->
 
-## React Compiler
+---
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+## 🔧 Tech Stack
 
-Note: This will impact Vite dev & build performances.
-You can also try [the experimental native React Compiler support in plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md#rust-react-compiler) by using `compiler: true` in the plugin options instead of using the Babel plugin.
+* **Frontend**: React + TypeScript
+* **Bundler**: Vite
+* **Linting**: ESLint
+* **Deployment**: Vercel
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Features
+
+* ⚡ Fast and modern development setup with Vite
+* 📱 Fully responsive design for desktop, tablet, and mobile
+* 🎨 Modern UI with Tailwind CSS
+* 🧠 Type-safe development with TypeScript
+* ✨ Smooth animations and interactions with GSAP
+* 💻 Showcases frontend and backend development skills
+* 🤖 Highlights AI and RAG-based projects
+* 📁 Organized and scalable project structure
+* 🔗 Links to GitHub repositories and deployed projects
+* 📄 Personal information, skills, education, and experience
+* 📬 Contact section for collaboration and communication
+
+
+## 🛠 Development Setup
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/your-username/my-portfolio.git
+cd my-portfolio
+```
+
+### 2. Install Dependencies
+
+```bash
+npm install
+```
+
+Or using Yarn:
+
+```bash
+yarn install
+```
+
+### 3. Start the Development Server
+
+```bash
+npm run dev
+```
+
+Or:
+
+```bash
+yarn dev
+```
+
+The application will be available at:
+
+```text
+http://localhost:5173
+```
+
+---
+
+## 🏗️ Build for Production
+
+To create a production build:
+
+```bash
+npm run build
+```
+
+To preview the production build locally:
+
+```bash
+npm run preview
+```
+
+---
+
+## 🌐 Deployment
+
+This project is deployed using **Vercel**.
+
+The deployment workflow is connected directly to GitHub:
+
+```text
+Local Development
+       ↓
+      Git
+       ↓
+    GitHub
+       ↓
+    Vercel
+       ↓
+  Live Website
+```
+
+Every new change pushed to the `main` branch can be automatically deployed through Vercel.
+
+---
+
+## 📁 Project Structure
+
+```text
+my-portfolio/
+├── public/
+│   ├── images/
+│   └── ...
+│
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── sections/
+│   ├── pages/
+│   ├── data/
+│   ├── hooks/
+│   ├── App.tsx
+│   └── main.tsx
+│
+├── index.html
+├── package.json
+├── tailwind.config.js
+├── vite.config.ts
+├── tsconfig.json
+└── README.md
+```
+
+---
+
+## 📚 Skills
+
+### Frontend
+
+* React
+* TypeScript
+* JavaScript
+* HTML5
+* CSS3
+* Tailwind CSS
+* Responsive Web Design
+
+### Backend
+
+* Java
+* Spring Boot
+* RESTful API
+* JWT Authentication
+* MySQL
+
+### AI & Data
+
+* Python
+* RAG
+* Embedding
+* FAISS
+* Web Crawling
+* Data Cleaning
+
+### Tools
+
+* Git
+* GitHub
+* Vite
+* VS Code
+* Postman
+* Vercel
+
+---
+
+## 📄 License
+
+This project is created for personal portfolio and educational purposes.
+
+© 2026 Your Name. All rights reserved.
